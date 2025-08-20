@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,8 +6,123 @@
     text-decoration: none;
 }
 
+body {
+    background-color: rgb(42, 41, 41);
+}
+
 .container {
     max-width: 100%;
     width: 85%;
     margin: 0 auto;
+}
+
+.header-li-a {
+    font-family: Montserrat;
+    font-size: 19.17px;
+    color: rgba(217, 217, 217, 1);
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.header-ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-wrapper-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.main-right-wrapper-1{
+    position: relative;
+}
+
+.main-left-1-1 {
+    width: 540px;
+    height: 176px;
+    font-size: 80px;
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 80px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 1px 50px 1000px rgba(53, 198, 107, 0.73);
+}
+
+.left-grean {
+    color: rgba(50, 183, 101, 1);
+}
+
+.main-left-btn{
+    display: flex;
+    gap: 30px;
+}
+
+.main-left-wrapper-1{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.main-left-textss {
+    width: 575px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    color: rgba(217, 217, 217, 1);
+}
+
+.main-btn-1 {
+    width: 233px;
+    height: 54.65283203125px;
+    background: linear-gradient(265.23deg, #237249 6.79%, #2B9658 49.38%, #32B765 81.55%, #35C66B 97.2%);
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.main-btn-2 {
+    width: 117.9688720703125px;
+    height: 54.65283203125px;
+    border-radius: 82.83px;
+    color: rgba(255, 255, 255, 1);
+    border: 2px solid white;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.left-3-elem-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.main-left-3-elem {
+    width: 126.80754852294922px;
+    height: 126.5169754028320px;
+
+}
+
+.numbeer-k {
+    font-family: Montserrat;
+    font-size: 62px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.main-left {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    color: rgba(131, 123, 123, 0.889);
+
 }

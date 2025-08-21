@@ -188,14 +188,14 @@ body {
 
 }
 
-.main-wrapper-3{
+.main-wrapper-3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
 }
 
-.main-3-right-item{
+.main-3-right-item {
     font-weight: 800;
     font-size: 80px;
     color: white;
@@ -206,12 +206,12 @@ body {
 }
 
 .main-3-right-item span {
-    background:  linear-gradient( 90deg , #35C66B , #237249 );
+    background: linear-gradient(90deg, #35C66B, #237249);
     background-clip: text;
     color: transparent;
 }
 
-.main-3-right-text{
+.main-3-right-text {
     font-weight: 400;
     font-size: 20px;
     line-height: 163.5%;
@@ -220,14 +220,14 @@ body {
     width: 457px;
 }
 
-.main-3-right{
+.main-3-right {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
 }
 
-.main-3-left-img{
+.main-3-left-img {
     animation-name: imgAnim;
     animation-delay: 1s;
     animation-iteration-count: infinite;
@@ -235,18 +235,29 @@ body {
 }
 
 @keyframes imgAnim {
-    0%,100%{transform: translateY(0);}
-    50%{transform: translateY(-10px);}
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
 }
 
-.main-3-line{
+.main-3-line {
     position: absolute;
     top: 1500px;
     right: 0;
 }
 
-.main-3-shadow{
+.main-3-shadow {
     position: absolute;
     top: 1700px;
     right: 300px;
+}
+
+body {
+    background-color: purple;
 }

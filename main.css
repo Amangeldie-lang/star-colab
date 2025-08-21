@@ -286,6 +286,7 @@ body {
     display: flex;
     align-items: center;
     gap: 80px;
+    position: relative;
 }
 
 .card {
@@ -294,9 +295,28 @@ body {
     border-radius: 30px;
     border: #DADADA 1px solid;
     background: transparent;
-    box-shadow: 0 0 10px 1px #DADADA;
-    padding: 0 20px;
+    box-shadow: 0 0 10px 0px #DADADA;
+    /* padding: 0 20px; */
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    transition: 300ms all ease;
+    position: relative;
 }
+
+.card:hover {
+    box-shadow: 0 0 30px 2px #237249;
+    transition: 300ms all ease;
+    border: 1px solid #35C66B;
+    transform: translateY(-2px);
+}
+
+.card:hover .main-4-card-product {
+    transition: 300ms all ease;
+    filter: brightness(100%);
+}
+
+
 
 .main-4-card-item {
     font-weight: 500;
@@ -311,6 +331,7 @@ body {
     color: #D9D9D9;
     text-align: center;
     opacity: 80%;
+    margin-top: 5px;
 }
 
 .main-4-price {
@@ -319,16 +340,79 @@ body {
     color: white;
 }
 
-.main-4-price-2{
+.main-4-price-2 {
     font-weight: 400;
     font-size: 20px;
     color: #D9D9D9;
 }
 
-.main-4-card-price-box{
+.main-4-card-price-box {
     display: flex;
     align-items: center;
     gap: 50px;
     margin: 0 auto;
     width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.main-4-card-btn {
+    width: 186px;
+    height: 53px;
+    border-radius: 60px;
+    border: none;
+    background: linear-gradient(90deg, #35C66B, #237249);
+    font-weight: 639;
+    font-size: 17.3px;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.main-4-card-product {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    filter: brightness(80%);
+    transition: 300ms all ease;
+}
+
+.main-4-cards-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.main-4-shadow {
+    position: absolute;
+    left: 80px;
+    top: 2000px;
+}
+
+.main-4-card-circle-1 {
+    position: absolute;
+    top: 2390px;
+}
+
+.main-4-card-circle-2 {
+    position: absolute;
+    top: 2390px;
+    left: 440px;
+}
+
+.main-4-card-circle-3 {
+    position: absolute;
+    top: 2390px;
+    left: 800px;
+}
+
+.main-4-card-circle-4 {
+    position: absolute;
+    top: 2390px;
+    left: 1170px;
 }

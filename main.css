@@ -258,3 +258,32 @@ body {
     right: 300px;
 }
 
+.main-4-item {
+    font-weight: 800;
+    font-size: 80px;
+    color: white;
+    line-height: 109.5%;
+    letter-spacing: -3%;
+    width: 392px;
+}
+
+.main-4-item span {
+    background: linear-gradient(90deg, #35C66B, #237249);
+    background-clip: text;
+    color: transparent;
+}
+
+.main-4-item-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    line-height: 163.5%;
+    letter-spacing: -2%;
+    width: 444px;
+}
+
+.main-4-item-box {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}

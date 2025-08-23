@@ -7,7 +7,7 @@
     font-family: "montserrat";
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -419,4 +419,176 @@ body {
     position: absolute;
     top: 2390px;
     left: 1170px;
+}
+
+
+.main-5-item-text {
+    font-weight: 400;
+    font-size: 20px;
+    color: #D9D9D9;
+    width: 457px;
+    line-height: 163.5%;
+}
+
+.main-5-item {
+    font-weight: 800;
+    font-size: 80px;
+    color: white;
+    width: 376px;
+}
+
+.main-5-item span {
+    background: linear-gradient(90deg, #35C66B, #237249);
+    background-clip: text;
+    color: transparent;
+}
+
+.main-5-item-box {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 100px;
+    padding-top: 100px;
+}
+
+.card-top-left {
+    background-image: url(./img/alex-haney-CAhjZmVk5H4-unsplash\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 614px;
+    height: 260px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 40px;
+}
+
+.main-5-card-box {
+    width: 100%;
+    height: 800px;
+}
+
+.card-top-left-item {
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    width: 230px;
+    padding-top: 30px;
+}
+
+.card-top-left-btn {
+    background: linear-gradient(90deg, #35C66B, #237249);
+    width: 167px;
+    height: 74px;
+    border: none;
+    border-radius: 82px;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.card-top-right {
+    background-image: url(./img/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 614px;
+    height: 260px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 0 40px;
+}
+
+.main-5-card-box {
+    width: 100%;
+    height: 800px;
+    padding-top: 100px;
+}
+
+.card-top-right-item {
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    width: 230px;
+    padding-top: 30px;
+}
+
+.card-top-right-btn {
+    background: linear-gradient(90deg, #35C66B, #237249);
+    width: 167px;
+    height: 74px;
+    border: none;
+    border-radius: 82px;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.main-5-card-top {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main-5-card-bottom-left {
+    width: 401px;
+    height: 260px;
+    border-radius: 30px;
+    padding: 22px;
+
+}
+
+.main-5-card-bottom-center {
+    width: 401px;
+    height: 260px;
+    border-radius: 30px;
+    background-image: url(./img/Rectangle\ 11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22px;
+}
+
+.main-5-card-bottom-right {
+    width: 401px;
+    height: 260px;
+    border-radius: 30px;
+    padding: 22px;
+
+}
+
+.main-5-card-bottom-item {
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+    width: 241px;
+    padding-top: 34px;
+}
+
+.main-5-card-bottom-btn {
+    background: linear-gradient(90deg, #35C66B, #237249);
+    width: 167px;
+    height: 74px;
+    border: none;
+    border-radius: 82px;
+    font-weight: 600;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.main-5-bottom-card-box {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    padding-top: 25px;
 }
